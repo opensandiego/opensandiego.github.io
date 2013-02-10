@@ -1,0 +1,65 @@
+html, body {
+  font-family: Helvetica, sans-serif;
+  color:#333;
+  line-height: 1.4;
+}
+
+a {
+  color:#5C9993;
+}
+
+a:hover {
+  color:#9BC7C4;
+}
+
+p {
+  font-size: 18px;
+  margin:.5em 0 1em 0;
+}
+
+footer p {
+  font-size: 13px;
+  text-align: center;
+}
+
+header h1 {
+  text-indent: -9999px;
+  margin:0;
+  font-size: .1em;
+  display:block;
+  width:400px;
+  height:66px;
+  background-image: url('/img/opensandiego-400-66.png');
+}
+
+header h2 {
+  font-size: 16px;
+  margin: 1.5em 0 2em 0;
+}
+
+img {max-width: 100%;}
+
+header {
+  margin-bottom: 2em;
+}
+
+.content h2 {
+  color:#555;
+  margin:2em 0 0 0;
+  line-height: 1.2;
+  font-size: 18px;
+  border-bottom: 2px solid #E9F1EB;
+}
+
+.container {
+  width:400px;
+  margin:40px auto 0px;
+}
+.container > footer {
+  margin-top: 80px;
+  padding: 0 0 50px 0;
+}
+
+.content {
+  clear:both;
+}
