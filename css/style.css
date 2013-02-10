@@ -1,3 +1,9 @@
+body {
+  width: 90%;
+  max-width: 400px;
+  margin:40px auto 0px;
+}
+
 html, body {
   font-family: Helvetica, sans-serif;
   color:#333;
@@ -29,7 +35,7 @@ header h1 {
   display:block;
   width:100%;
   height:65px;
-  background: url('/img/opensandiego-800-135.png') top ;
+  background: url('/osd/img/opensandiego-800-135.png') top no-repeat;
   background-size: 100%;
 }
 
@@ -68,10 +74,6 @@ hr {
   margin:0 0 .5em 0;
 }
 
-.container {
-  width:400px;
-  margin:40px auto 0px;
-}
 .container > footer {
   margin-top: 80px;
   padding: 0 0 50px 0;
