@@ -8,9 +8,9 @@ permalink: /
 
 ## Join Us
 
-Our next meeting is on Saturday, February 23, 2013 at 10am. We're meeting at [Co-Merge](http://www.co-merge.com) for a code sprint and unconference in honor of International [Open Data Day](http://opendataday.org). This event is also a part of [Code Across America](http://brigade.codeforamerica.org/pages/codeacross).
+Our next meeting is on **Saturday, February 23, 2013 at 10am**. We're meeting at [Co-Merge](http://www.co-merge.com) for a code sprint and unconference in honor of International [Open Data Day](http://opendataday.org). This event is also a part of [Code Across America](http://brigade.codeforamerica.org/pages/codeacross).
 
-RSVP on [our MeetUp page](http://www.meetup.com/cfabrigade/San-Diego-CA/878642/).
+More info and RSVP on [our MeetUp page](http://www.meetup.com/cfabrigade/San-Diego-CA/878642/).
 
 ## Stay updated
 
