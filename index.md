@@ -24,3 +24,9 @@ RSVP on [our MeetUp page](http://www.meetup.com/cfabrigade/San-Diego-CA/878642/)
 * [Open San Diego Maps](http://maps.opensandiego.org) – Free GIS mapping software that includes over 200 datasets from SANDAG and SANGIS. Powered by [GeoNode](http://geonode.org)
 * [Open Data Catalog](http://catalog.opensandiego.org) – A catalog of sources of data throughout San Diego. 
 * [Flashlight](http://flashlight.opensandiego.org) – A collection of links to sources of all kinds of data relevant to the San Diego region. Compiled by [Dave Maass](https://twitter.com/DaveMaass).
+
+--
+
+Proud host of San Diego's [Code for America Brigade](http://brigade.codeforamerica.org).
+
+[![Code for America Brigade Logo](/img/CfA_Brigade_logo.png)](http://brigade.codeforamerica.org)

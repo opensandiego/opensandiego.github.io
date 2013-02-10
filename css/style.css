@@ -27,9 +27,10 @@ header h1 {
   margin:0;
   font-size: .1em;
   display:block;
-  width:400px;
-  height:66px;
-  background-image: url('/img/opensandiego-400-66.png');
+  width:100%;
+  height:65px;
+  background: url('/img/opensandiego-800-135.png') top ;
+  background-size: 100%;
 }
 
 header h2 {
@@ -41,6 +42,13 @@ img {max-width: 100%;}
 
 header {
   margin-bottom: 2em;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-color: #E9F1EB;
+  margin:2em 0;
 }
 
 .content h2 {
