@@ -51,6 +51,15 @@ header {
   border-bottom: 2px solid #E9F1EB;
 }
 
+.content ul {
+  margin:.5em 0 1em 0;
+  padding: 0 0 0 1em;
+}
+
+.content ul li {
+  margin:0 0 .5em 0;
+}
+
 .container {
   width:400px;
   margin:40px auto 0px;
@@ -58,8 +67,4 @@ header {
 .container > footer {
   margin-top: 80px;
   padding: 0 0 50px 0;
-}
-
-.content {
-  clear:both;
 }
