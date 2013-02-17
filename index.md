@@ -15,8 +15,8 @@ More info and RSVP on [our MeetUp page](http://www.meetup.com/cfabrigade/San-Die
 ## Stay updated
 
 * Join our [forum](http://forum.opensandiego.org)
-* Follow us on Twitter at [@opensandiego](http://twitter.com/opensandiego).
-* Read [our blog](http://blog.opensandiego.org).
+* Follow us on Twitter at [@opensandiego](http://twitter.com/opensandiego)
+* Read [our blog](http://blog.opensandiego.org)
 * Write us hi@opensandiego.org
 
 ## Projects we've worked on
