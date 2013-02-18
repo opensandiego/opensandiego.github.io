@@ -1,25 +1,27 @@
 ---
 layout: default
 title: Open San Diego
-description: We are a group of San Diegans who meet regularly to share knowledge and collaborate on projects to make our city a better place to live.
+description: We are a group of San Diegans who meet regularly to share knowledge and collaborate on projects to make our region a better place to live.
 slug: Home
 permalink: /
 ---
 
 ## Join Us
 
-Our next meeting is on **Saturday, February 23, 2013 at 10am**. We're meeting at [Co-Merge](http://www.co-merge.com) for a code sprint and unconference in honor of International [Open Data Day](http://opendataday.org). This event is also a part of [Code Across America](http://brigade.codeforamerica.org/pages/codeacross).
+Our next meeting is on **Saturday, February 23, 2013 at 10am**. We're meeting at [Co-Merge](http://www.co-merge.com) for an unconference and code sprint in honor of International [Open Data Day](http://opendataday.org). This event is also a part of [Code Across America](http://brigade.codeforamerica.org/pages/codeacross).
+
+You don't need to know how to write code to participate!
 
 More info and RSVP on [our MeetUp page](http://www.meetup.com/cfabrigade/San-Diego-CA/878642/).
 
-## Stay updated
+## Stay Updated
 
 * Join our [forum](http://forum.opensandiego.org)
 * Follow us on Twitter at [@opensandiego](http://twitter.com/opensandiego)
 * Read [our blog](http://blog.opensandiego.org)
 * Write us hi@opensandiego.org
 
-## Projects we've worked on
+## Projects We've Worked On
 
 * [Open San Diego Maps](http://maps.opensandiego.org) – Free GIS mapping software that includes over 200 datasets from SANDAG and SANGIS. Powered by [GeoNode](http://geonode.org)
 * [Open Data Catalog](http://catalog.opensandiego.org) – A catalog of sources of data throughout San Diego. 
@@ -28,5 +30,6 @@ More info and RSVP on [our MeetUp page](http://www.meetup.com/cfabrigade/San-Die
 --
 
 Proud host of San Diego's [Code for America Brigade](http://brigade.codeforamerica.org).
+
 
 [![Code for America Brigade Logo](/img/CfA_Brigade_logo.png)](http://brigade.codeforamerica.org)

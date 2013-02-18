@@ -53,16 +53,16 @@ header {
 hr {
   border: 0;
   height: 2px;
-  background-color: #E9F1EB;
+  background-color: #9BC7C4;
   margin:2em 0;
 }
 
 .content h2 {
   color:#555;
   margin:2em 0 0 0;
-  line-height: 1.2;
+  line-height: 1.5;
   font-size: 18px;
-  border-bottom: 2px solid #E9F1EB;
+  border-bottom: 2px solid #9BC7C4;
 }
 
 .content ul {
