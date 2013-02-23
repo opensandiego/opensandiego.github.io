@@ -8,11 +8,9 @@ permalink: /
 
 ## Join Us
 
-Our next meeting is on **Saturday, February 23, 2013 at 10am**. We're meeting at [Co-Merge](http://www.co-merge.com) for an unconference and code sprint in honor of International [Open Data Day](http://opendataday.org). This event is also a part of [Code Across America](http://brigade.codeforamerica.org/pages/codeacross).
+Our next meeting is on **Tuesday, March 19, 2013 at 6pm**. We're meeting at [Co-Merge](http://www.co-merge.com) for a conversation with [Kara DeFrias](https://twitter.com/CaliforniaKara) about her recent work as a White House Presidential Innovation Fellow.
 
-You don't need to know how to write code to participate!
-
-More info and RSVP on [our MeetUp page](http://www.meetup.com/cfabrigade/San-Diego-CA/878642/).
+More info and RSVP at [our MeetUp page](http://www.meetup.com/cfabrigade/Open-San-Diego/885922/).
 
 ## Stay Updated
 
