@@ -8,7 +8,7 @@ permalink: /
 
 ## Join Us
 
-Our next meeting is on **Tuesday, March 19, 2013 at 6pm**. We're meeting at [Co-Merge](http://www.co-merge.com) for a conversation with [Kara DeFrias](https://twitter.com/CaliforniaKara) about her recent work as a White House Presidential Innovation Fellow.
+Our next meeting is on **Tuesday, March 19, 2013 at 6pm**. We're meeting at [Tiny Factory](http://tinyfactory.co/) for a conversation with [Kara DeFrias](https://twitter.com/CaliforniaKara) about her recent work as a White House Presidential Innovation Fellow.
 
 More info and RSVP at [our MeetUp page](http://www.meetup.com/cfabrigade/Open-San-Diego/885922/).
 
