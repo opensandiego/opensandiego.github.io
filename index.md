@@ -8,9 +8,7 @@ permalink: /
 
 ## Join Us
 
-Our next meeting is on **April 9th**. We'll meet at [Tiny Factory](http://tinyfactory.co/) for a conversation with [Kara DeFrias](https://twitter.com/CaliforniaKara) about her recent work as a White House Presidential Innovation Fellow.
-
-More info and RSVP at [our MeetUp page](http://www.meetup.com/cfabrigade/Open-San-Diego/885922/) and we'll let you know when we reschedule.
+Our next meeting is **to be determined**.
 
 ## Stay Updated
 
