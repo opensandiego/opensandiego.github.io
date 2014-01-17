@@ -8,7 +8,7 @@ permalink: /
 
 ## Join Us
 
-Our next meeting is [IT for Politicos](https://github.com/opensandiego/opensandiego.github.com.git). Thursday, January 23rd from 5 to 7 pm at The San Diego Foundation.
+Our next meeting is [IT for Politicos](http://opensandiego.org/ITforPoliticos.html). Thursday, January 23rd from 5 to 7 pm at The San Diego Foundation. [Info on speakers and registration](http://opensandiego.org/ITforPoliticos.html).
 
 ## Stay Updated
 
