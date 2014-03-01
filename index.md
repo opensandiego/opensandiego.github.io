@@ -6,10 +6,10 @@ slug: Home
 permalink: /
 ---
 
-## Help us help Mayor-elect Faulconer
+<!-- ## Help us help Mayor-elect Faulconer
 
 The city is considering erasing all emails older than one year old. We think this is a mistake. Read [our letter to Mayor-elect Faulconer](/revoke-ar-90-67) and cosign it if you agree.
-
+ -->
 ## Join Us
 
 Our next meeting is TBD.
