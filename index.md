@@ -27,7 +27,12 @@ Our next meeting is TBD.
 
 --
 
-Proud host of San Diego's [Code for America Brigade](http://brigade.codeforamerica.org).
+<div class="text-center">
+  <p>Proud host of San Diego’s <a href="http://brigade.codeforamerica.org">Code for America Brigade</a>.</p>
+</div>
 
-
-[![Code for America Brigade Logo](/img/CfA_Brigade_logo.png)](http://brigade.codeforamerica.org)
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3">
+    <a href="http://brigade.codeforamerica.org"><img src="/img/CfA_Brigade_logo.png"></a>
+  </div>
+</div>
