@@ -12,9 +12,9 @@ The city is considering erasing all emails older than one year old. We think thi
  -->
 ## Join Us
 
-Our next meeting is at 6:00pm on April 3rd at Evonexus Downtown. Xavier Leonard ([@merelyanode](https://twitter.com/merelyanode)) will give a presentation on [San Diego’s Civic Innovation Lab](https://twitter.com/SDCivicLab).
+Our next meeting is at 6:00pm on April 3rd at Evonexus Downtown ([101 W Broadway](https://www.google.com/maps/place/101+W+Broadway/@32.7150983,-117.164295,17z/data=!3m1!4b1!4m2!3m1!1s0x80d954a84a1fe9a1:0xd29beda9a551d000)). Xavier Leonard ([@merelyanode](https://twitter.com/merelyanode)) will give a presentation on [San Diego’s Civic Innovation Lab](https://twitter.com/SDCivicLab).
 
-Evonexus is on the 2nd floor of 101 W Broadway downtown.
+[RSVP on Meetup](http://www.meetup.com/cfabrigade/Open-San-Diego/1114872/).
 
 ## Stay Updated
 
