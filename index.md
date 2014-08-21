@@ -12,20 +12,24 @@ The city is considering erasing all emails older than one year old. We think thi
  -->
 ## Join Us
 
-Our next meeting is at 6:00pm on April 3rd at Evonexus Downtown ([101 W Broadway](https://www.google.com/maps/place/101+W+Broadway/@32.7150983,-117.164295,17z/data=!3m1!4b1!4m2!3m1!1s0x80d954a84a1fe9a1:0xd29beda9a551d000)). [Xavier Leonard](https://twitter.com/merelyanode) will give a presentation on [San Diego’s Civic Innovation Lab](https://twitter.com/SDCivicLab).
+Our next event is TBD. Please follow us on [@opensandiego](http://twitter.com/opensandiego) or sign up for our [@mailing list](http://bit.ly/openSD).
 
-[RSVP on Meetup](http://www.meetup.com/cfabrigade/Open-San-Diego/1114872/).
+You can also watch for events on [Meetup](http://www.meetup.com/cfabrigade/Open-San-Diego/1114872/).
 
 ## Stay Updated
 
 * Follow us on Twitter at [@opensandiego](http://twitter.com/opensandiego)
 * Write us hi@opensandiego.org
+* Join our [@mailing list](http://bit.ly/openSD)
 
 ## Projects We've Worked On
 
 * [Open San Diego Maps](http://maps.opensandiego.org) – Free GIS mapping software that includes over 200 datasets from SANDAG and SANGIS. Powered by [GeoNode](http://geonode.org)
 * [Open Data Catalog](http://catalog.opensandiego.org) – A catalog of sources of data throughout San Diego. 
 * [Flashlight](http://flashlight.opensandiego.org) – A collection of links to sources of all kinds of data relevant to the San Diego region. Compiled by [Dave Maass](https://twitter.com/DaveMaass).
+* [IT for Politicos](http://opensandiego.org/ITforPoliticos.html) - Ten local technology leaders will provide an informative and fast paced introduction to everything you need to know to maximize your use of technology in government. 
+* [Meet the Candidate #1](https://www.youtube.com/watch?v=JDV_Fd9rdgg&list=UUFW163NlCjHmQK3c0zlY7JQ)
+- A casual conversation with Carol Kim, candidate for San Diego City Council, about technology in government.
 
 --
 
