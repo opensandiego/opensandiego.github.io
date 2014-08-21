@@ -12,7 +12,7 @@ The city is considering erasing all emails older than one year old. We think thi
  -->
 ## Join Us
 
-Our next event is TBD. Please follow us on [@opensandiego](http://twitter.com/opensandiego) or sign up for our [@mailing list](http://bit.ly/openSD).
+Our next event is TBD. Please follow us on [@opensandiego](http://twitter.com/opensandiego) or sign up for our [mailing list](http://bit.ly/openSD).
 
 You can also watch for events on [Meetup](http://www.meetup.com/cfabrigade/Open-San-Diego/1114872/).
 
@@ -20,7 +20,7 @@ You can also watch for events on [Meetup](http://www.meetup.com/cfabrigade/Open-
 
 * Follow us on Twitter at [@opensandiego](http://twitter.com/opensandiego)
 * Write us hi@opensandiego.org
-* Join our [@mailing list](http://bit.ly/openSD)
+* Join our [mailing list](http://bit.ly/openSD)
 
 ## Projects We've Worked On
 
@@ -28,8 +28,7 @@ You can also watch for events on [Meetup](http://www.meetup.com/cfabrigade/Open-
 * [Open Data Catalog](http://catalog.opensandiego.org) – A catalog of sources of data throughout San Diego. 
 * [Flashlight](http://flashlight.opensandiego.org) – A collection of links to sources of all kinds of data relevant to the San Diego region. Compiled by [Dave Maass](https://twitter.com/DaveMaass).
 * [IT for Politicos](http://opensandiego.org/ITforPoliticos.html) - Ten local technology leaders will provide an informative and fast paced introduction to everything you need to know to maximize your use of technology in government. 
-* [Meet the Candidate #1](https://www.youtube.com/watch?v=JDV_Fd9rdgg&list=UUFW163NlCjHmQK3c0zlY7JQ)
-- A casual conversation with Carol Kim, candidate for San Diego City Council, about technology in government.
+* [Meet the Candidate #1](https://www.youtube.com/watch?v=JDV_Fd9rdgg&list=UUFW163NlCjHmQK3c0zlY7JQ) - A casual conversation with Carol Kim, candidate for San Diego City Council, about technology in government.
 
 --
 
