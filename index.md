@@ -29,7 +29,7 @@ You can also watch for events on [Meetup](http://www.meetup.com/cfabrigade/Open-
 * [Flashlight](http://flashlight.opensandiego.org) – A collection of links to sources of all kinds of data relevant to the San Diego region. Compiled by [Dave Maass](https://twitter.com/DaveMaass).
 * [IT for Politicos](http://opensandiego.org/ITforPoliticos.html) - Ten local technology leaders will provide an informative and fast paced introduction to everything you need to know to maximize your use of technology in government. 
 *  Meet the Candidate - A series of casual conversations with candidates and elected officials about technology in government.
-    * Carol Kim - Candidate for San Diego City Council, District 6. [Watch the Video]((https://www.youtube.com/watch?v=JDV_Fd9rdgg&list=UUFW163NlCjHmQK3c0zlY7JQ)
+    * Carol Kim - Candidate for San Diego City Council, District 6. [Watch the Video](https://www.youtube.com/watch?v=JDV_Fd9rdgg&list=UUFW163NlCjHmQK3c0zlY7JQ)
     * Chris Cate - Candidate for San Diego City Council, District 6. [Watch the Video](https://www.youtube.com/watch?v=NOOw_VpdXYM)
 * [City of San Diego Website Redesign](https://www.youtube.com/watch?v=PKZEUb-OWxQ)
 
