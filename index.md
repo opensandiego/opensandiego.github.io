@@ -12,7 +12,12 @@ The city is considering erasing all emails older than one year old. We think thi
  -->
 ## Join Us
 
-Our next event is TBD. Please follow us on [@opensandiego](http://twitter.com/opensandiego) or sign up for our [mailing list](http://bit.ly/openSD).
+
+* Meetup 10/17 - Discussion will include open data policy, San Diego's website redesign initiative, and more.
+* Meet the Candidates with Congressman Scott Peters (10/15) and former Councilmember Carl DeMaio (10/16). [RSVP on Eventbrite](http://www.eventbrite.com/o/open-san-diego-6798602401).
+
+
+For future events, please follow us on [@opensandiego](http://twitter.com/opensandiego) or sign up for our [mailing list](http://bit.ly/openSD).
 
 You can also watch for events on [Meetup](http://www.meetup.com/cfabrigade/Open-San-Diego/1114872/).
 
@@ -28,9 +33,10 @@ You can also watch for events on [Meetup](http://www.meetup.com/cfabrigade/Open-
 * [Open Data Catalog](http://catalog.opensandiego.org) – A catalog of sources of data throughout San Diego. 
 * [Flashlight](http://flashlight.opensandiego.org) – A collection of links to sources of all kinds of data relevant to the San Diego region. Compiled by [Dave Maass](https://twitter.com/DaveMaass).
 * [IT for Politicos](http://opensandiego.org/ITforPoliticos.html) - Ten local technology leaders will provide an informative and fast paced introduction to everything you need to know to maximize your use of technology in government. 
-* [Meet the Candidate #1](https://www.youtube.com/watch?v=JDV_Fd9rdgg&list=UUFW163NlCjHmQK3c0zlY7JQ) - A casual conversation with Carol Kim, candidate for San Diego City Council, about technology in government.
-
---
+*  Meet the Candidate - A series of casual conversations with candidates and elected officials about technology in government.
+    * [Carol Kim](https://www.youtube.com/watch?v=JDV_Fd9rdgg&list=UUFW163NlCjHmQK3c0zlY7JQ) - Candidate for San Diego City Council, District 6
+    * [Chris Cate](https://www.youtube.com/watch?v=NOOw_VpdXYM) - Candidate for San Diego City Council, District 6
+* [City of San Diego Website Redesign](https://www.youtube.com/watch?v=PKZEUb-OWxQ)
 
 <div class="text-center">
   <p>Proud host of San Diego’s <a href="http://brigade.codeforamerica.org">Code for America Brigade</a>.</p>
