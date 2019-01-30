@@ -5,14 +5,32 @@
         <div class="align-left">
           <div class="global-header-logo">
             <a href="/">
-              <img class="header-icon align-left" src="/media/images/cfa-logo-color.png" alt="Code for America Logo" />
-              <p class="global-header-title align-left">{{ site.title }} <span class="subtitle">{{ include.section }}</span></p>
+              <img class="header-icon align-left" src="/media/images/opensandiego-logo-color.png" alt="Open San Diego Logo" />
+              <!-- <p class="global-header-title align-left">{{ site.title }} <span class="subtitle">{{ include.section }}</span></p> -->
             </a>
           </div>
         </div>
-        <div class="align-left">
-          <a href="#" class="button-toggle-sidebar"></a>
+        <div class="button-menu global-header-buttons align-right" role="navigation">
+          <a class="menu-item button button-small button-primary" href="#" title="Donate">Donate</a>
+          <a class="menu-item button button-small js-menu-button" href="{{ siteUrl }}donate" title="Open menu"><span class="fa fa-bars"></span> Menu</a>
         </div>
+
+        <div class="width-one-whole global-header-navigation">
+          <div class="bar-menu global-header-menu align-left" role="navigation">
+            <a href="#" class="menu-item">About</a>
+            <a href="#" class="menu-item">Get Involved</a>
+            <a href="#" class="menu-item">Projects</a>
+            <a href="#" class="menu-item">Contact</a>
+          </div>
+        </div>
+
+        <!--
+        <div class="bar-menu global-header-menu align-right" role="navigation">
+            <a href="#" class="menu-item">Get Involved</a>
+            <a href="#" class="menu-item">Get Involved</a>
+        </div>
+        -->
+
     </div>
   </div>
 </header>
