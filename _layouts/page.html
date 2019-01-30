@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html>                     <!--<![endif]-->
+
+  {% include head.html %}
+
+  <body>
+    <div>
+      {% include header.html section="Header" %}
+      <div class="page-content">
+        <div class="grid-box">
+            <div class="slab slab-border-top">
+                <article class="grid-item width-one-whole">
+                  {% if page.title %}
+                  <header class="page-header">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.description %}<p class="lead-in-text">{{ page.description }}</p>{% endif %}
+                  </header>
+                  {% endif %}
+                  {{ content }}
+                </article>
+              </div>
+            </div>
+        </div>
+      {% include footer.html section="Footer" %}
+    </div>
+    <script src="{{ '/js/jquery-1.11.2.min.js' | prepend: site.baseurl }}"></script>
+    <!--[if lt IE 9]>
+      <script src="{{ '/js/rem.min.js' | prepend: site.baseurl }}"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <![endif]-->
+
+    {% include page_end.html %}
+  </body>
+
+</html>

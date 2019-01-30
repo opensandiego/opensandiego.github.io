@@ -10,17 +10,13 @@
             </a>
           </div>
         </div>
-        <div class="button-menu global-header-buttons align-right" role="navigation">
-          <a class="menu-item button button-small button-primary" href="#" title="Donate">Donate</a>
-          <a class="menu-item button button-small js-menu-button" href="{{ siteUrl }}donate" title="Open menu"><span class="fa fa-bars"></span> Menu</a>
-        </div>
 
         <div class="width-one-whole global-header-navigation">
-          <div class="bar-menu global-header-menu align-left" role="navigation">
-            <a href="#" class="menu-item">About</a>
-            <a href="#" class="menu-item">Get Involved</a>
-            <a href="#" class="menu-item">Projects</a>
-            <a href="#" class="menu-item">Contact</a>
+          <div class="bar-menu global-header-menu align-right" role="navigation">
+            <a href="{% link about.md %}" class="menu-item">About</a>
+            <a target="_blank" href="https://www.meetup.com/Open-San-Diego/" class="menu-item">Get Involved</a>
+            <a href="{% link projects.md %}" class="menu-item">Projects</a>
+            <a href="{% link contact.md %}" class="menu-item">Contact</a>
           </div>
         </div>
 
@@ -34,3 +30,4 @@
     </div>
   </div>
 </header>
+
