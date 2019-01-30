@@ -11,3 +11,6 @@ Thumbs.db
 
 # code for america base style guide
 style-guide
+package-lock.json
+Gemfile.lock
+node_modules/

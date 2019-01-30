@@ -1,0 +1,12 @@
+{
+  "name": "@codeforamerica/style",
+  "version": "4.0.9",
+  "description": "Code for America's Styleguide. http://v4.style.codeforamerica.org",
+  "scripts": {
+    "build": "npx node-sass css/main.scss css/main.css --include-path node_modules/"
+  },
+  "dependencies": {
+    "@codeforamerica/style": "4.0.9",
+    "node-sass": "^4.11.0"
+  }
+}

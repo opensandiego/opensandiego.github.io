@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html>                     <!--<![endif]-->
+
+  {% include head.html %}
+
+  <body>
+    <div class="template-styleguide">
+      {% include header.html section="Style Guide" %}
+      <div class="main-content">
+        <div class="grid-box">
+            <div class="styleguide-sidebar sidebar grid-item width-one-fourth">
+            </div>
+            <article class="styleguide-content grid-item width-two-thirds shift-one-twelfth">
+              <header class="page-header">
+                <h1 class="style-guide-heading">{{ page.title }}</h1>
+                {% if page.description %}<p class="lead-in-text">{{ page.description }}</p>{% endif %}
+              </header>
+              {{ content }}
+            </article>
+          </div>
+        </div>
+    </div>
+    <script src="{{ '/js/jquery-1.11.2.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/js/prism.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/js/styleguide.js' | prepend: site.baseurl }}"></script>
+    <!--[if lt IE 9]>
+      <script src="{{ '/js/rem.min.js' | prepend: site.baseurl }}"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <![endif]-->
+  </body>
+
+</html>
