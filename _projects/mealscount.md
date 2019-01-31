@@ -1,5 +1,7 @@
 ---
+layout: page
 title: Meals Count
+path: mealscount
 description: A web-based tool California school districts can use to optimize free meal program participation and federal reimbursement
 ---
 

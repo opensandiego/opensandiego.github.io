@@ -1,14 +1,21 @@
 ---
-layout: projects
+layout: page
 ---
 
 ## Projects
 
-{% for project in site.projects %}
-<div class="slab">
-    ## {{ project.title }}
-    {{ project.decription }}
-    <a href="{{ project.url }}">Learn More</a>
+<div class="slab border-top-slab">
+    <div class="grid-box">
+    {% for project in site.projects %}
+    <div class="grid-item width-one-third">
+        <h2>{{ project.title }}</h2>
+    
+        <p>
+            {{ project.description }}
+            <a href="{{ project.url }}">Learn More</a>
+        </p>
+    
+    </div>
+    {% endfor %}
+    </div>
 </div>
-{% endfor %}
-
