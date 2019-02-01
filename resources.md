@@ -28,6 +28,9 @@ If you think we missed one, please [Let Us know!]({% link contact.md %})
 * [Python SD](http://www.pythonsd.org/index.html)
 * [San Diego Javascript](https://www.sandiegojs.org/)
 * [SD Ruby](https://sdruby.org)
+* [San Diego City Github](https://github.com/cityofsandiego)
+* [Open San Diego Github](https://github.com/opensandiego)
+* [Code For America Github](https://github.com/codeforamerica)
 
 
 
