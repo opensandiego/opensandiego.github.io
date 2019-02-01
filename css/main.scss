@@ -1,2 +1,6 @@
 @import '@codeforamerica/style/_sass/main';
 
+.top-notice {
+    @include outer-container();
+    max-width: $site-max-width;
+}

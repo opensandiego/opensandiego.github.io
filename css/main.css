@@ -2120,3 +2120,15 @@ body.mobile-navigation-is-active {
   background-color: rgba(0, 0, 0, 0.15);
   color: white;
   border-bottom: 0; }
+
+.top-notice {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px; }
+  .top-notice:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
