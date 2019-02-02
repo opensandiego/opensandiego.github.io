@@ -4,3 +4,25 @@
     @include outer-container();
     max-width: $site-max-width;
 }
+
+
+.home-header {
+    background-image: url('/media/images/sd.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+
+    .grid-box {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+            
+        text-align: center;
+   }
+}
+
+.global-small-header {
+   padding: 1em;
+
+}
