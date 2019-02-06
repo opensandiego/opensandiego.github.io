@@ -1,9 +1,8 @@
 Open San Diego Website
 ======================
 
-Base Theme from:
-https://github.com/codeforamerica/style-guide
-https://v4.style.codeforamerica.org/
+Built from Bootstrap 4.2.1:
+https://getbootstrap.com/docs/4.2/getting-started/introduction/
 
 
 Setting Up a Local Dev Environment
