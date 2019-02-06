@@ -2,25 +2,82 @@
 layout: base
 ---
 
-<div class="home-header">
-    <div class="grid-box">
-        <div class="grid-item width-one-half shift-one-fourth">
-            <h1>We Are Open San Diego</h1>
-            <p>
-We are a group of civic-minded San Diegans who meet regularly to learn how to best help citizens and local government have a more informed relationship with each other. Join the conversation and help if you can. We are also a <a href="https://brigade.codeforamerica.org">Code For America</a> brigade, and part of a national organization. Everyone is welcome at every skill level! 
+<section class="jumbotron text-center home-jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="jumbotron-heading">We Are Open San Diego</h1>
+      <p class="lead">We are a group of civic-minded San Diegans who meet regularly to learn how to best help citizens and local government have a more informed relationship with each other. Join the conversation and help if you can. We are also a Code For America brigade, and part of a national organization. Everyone is welcome at every skill level!</p>
+      <h3>We meet monthly. Join Us!</h3>
+      <p>
+        <a target="_blank" class="btn btn-primary my-3" href="https://www.meetup.com/Open-San-Diego/">
+            <i class="fa fa-calendar"></i> Meetup Schedule
+        </a>
+        <a target="_blank" class="btn btn-secondary my-3" href="https://osd-slack-auto-invite.herokuapp.com/">
+            <i class="fa fa-slack"></i> Join Us on Slack
+        </a>
+      </p>
+    </div>
+</section>
+
+<div class="container">
+
+    <div class="container py-5">
+        <h2 class="display-4">Our Mission: The things we care about.</h2>
+        <ul >
+            <li>We strengthen regional San Diego citizens’ experience as among the best in the nation</li>
+            <li>We assist San Diegans who want to collaborate and create a more engaged and efficient democracy.</li>
+            <li>We maximize the Internet’s potential locally to spur economic opportunities.</li>
+        </ul>
+    </div>
+    <div class="card-deck mb-3 text-center">
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title">We could use your talents</h2>
+            <p>We are a <a href="https://brigade.codeforamerica.org/">Code for America Brigade</a>, which means we’re civic-minded volunteers of techies, creatives, business people and other civic-stakeholders that contribute our talents toward improving the way our local governments and community organizations work.
             </p>
-            <h3>We meet monthly. Join Us!</h3>
-            <div>
-                <a target="_blank" class="button button-primary" href="https://www.meetup.com/Open-San-Diego/">Meetup Schedule</a>
-                <a target="_blank" class="button button-primary" href="https://osd-slack-auto-invite.herokuapp.com/">Join Us on Slack</a>
-            </div>
+            <a href="{% link get_involved.md %}" class="btn btn-lg btn-block btn-outline-primary">Get Involved</a>
+          </div>
         </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title">We Meet Often</h2>
+            <h4>Come Join Us</h4>
+            <p>View our <a href="https://www.meetup.com/Open-San-Diego/">Meetup</a> page for our next meeting &amp; RSVP. We typically meet twice a month for a speaker one week and a workshop the other. There’s something for everyone so if you have an interest in civic engagement we hope you’ll join us.
+            </p>
+            <a href="https://www.meetup.com/Open-San-Diego/" class="btn btn-lg btn-block btn-outline-primary">Join Us</a>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+                <a class="twitter-timeline" data-height="350" href="https://twitter.com/OpenSanDiego?ref_src=twsrc%5Etfw">Tweets by OpenSanDiego</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+         </div>
+        </div>
+
+    </div><!-- card-deck -->
+
+                
+    <h2>Projects</h2>
+    <div class="card-deck mb-3">
+        {% for project in site.projects %}
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">{{ project.title }}</h4>
+          </div>
+          <div class="card-body">
+            <p>
+            {{ project.description }}
+            </p>
+            <p><a href="{{ project.url }}">Learn More</a></p>
+          </div>
+        </div>
+        {% endfor %}
     </div>
+      
+    {% include footer.html section="Footer" %}
 </div>
-<div class="page-content">
-    <div class="grid-box">
-        <article class="grid-item width-one-whole">
-            {{ content }}
-        </article>
-    </div>
-</div>
+
+

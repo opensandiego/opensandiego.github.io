@@ -1,37 +1,30 @@
 {% include alert.html %}
 
-<header class="global-small-header">
-  <div class="grid-box">
-    <div class="grid-item width-one-whole">
-<!-- <h1 class="global-header-title"><a href="#" class="button-toggle-sidebar"></a><a href="/">{{ site.title }} <span class="subtitle">Component Library</span></a></h1> -->
-        <div class="width-one-whole">
-        <div class="align-left">
-          <div class="global-header-logo">
-            <a href="/">
-              <img class="header-icon align-left" src="/media/images/opensandiego-logo-color.png" alt="Open San Diego Logo" />
-              <!-- <p class="global-header-title align-left">{{ site.title }} <span class="subtitle">{{ include.section }}</span></p> -->
-            </a>
-          </div>
-        </div>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">
+    <a href="/">
+        <img height="25" src="/media/images/opensandiego-logo-color.png" alt="Open San Diego" />
+    </a>
+  </h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" href="{% link get_involved.md %}" class="menu-item">
+        Get Involved
+    </a>
+    <a class="p-2 text-dark" target="_blank" href="https://www.meetup.com/Open-San-Diego/">
+        Events
+    </a>
+    <a class="p-2 text-dark" href="{% link projects.md %}">
+        Projects
+    </a>
+    <a class="p-2 text-dark" href="{% link contact.md %}">
+        Contact
+    </a>
+    <a class="p-2 text-dark" href="{% link about.md %}">
+        About
+    </a>
+  </nav>
+  <!--<a class="btn btn-outline-primary" href="#">Donate</a>-->
 
-          <div class="bar-menu global-header-menu align-right" role="navigation">
-            <a href="{% link get_involved.md %}" class="menu-item">Get Involved</a>
-            <a target="_blank" href="https://www.meetup.com/Open-San-Diego/" class="menu-item">Events</a>
-            <a href="{% link projects.md %}" class="menu-item">Projects</a>
-            <a href="{% link contact.md %}" class="menu-item">Contact</a>
-            <a href="{% link about.md %}" class="menu-item">About</a>
-          </div>
-        </div>
-
-        <!--
-        <div class="bar-menu global-header-menu align-right" role="navigation">
-            <a href="#" class="menu-item">Get Involved</a>
-            <a href="#" class="menu-item">Get Involved</a>
-        </div>
-        -->
-
-    </div>
-  </div>
-</header>
+</div>
 
 

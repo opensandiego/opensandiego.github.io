@@ -1,28 +1,32 @@
-@import '@codeforamerica/style/_sass/main';
+@import "bootstrap/scss/bootstrap";
 
-.top-notice {
-    @include outer-container();
-    max-width: $site-max-width;
+html {
+  font-size: 14px;
 }
 
-
-.home-header {
-    background-image: url('/media/images/sd.jpg');
+.home-jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url('/media/images/sd.jpg');
     background-size: cover;
     color: white;
-    text-shadow: 2px 2px 2px #000;
-
-    .grid-box {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-            
-        text-align: center;
-   }
+    text-shadow: 1px 1px 1px #333;
 }
 
-.global-small-header {
-   padding: 1em;
-
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
+
+.container {
+  max-width: 960px;
+}
+
+.home-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+

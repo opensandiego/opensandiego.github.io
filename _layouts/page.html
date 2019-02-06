@@ -2,13 +2,8 @@
 layout: base
 ---
 
-<div class="grid-box">
-    <div class="slab border-top-slab">
-        <article class="grid-item width-one-whole">
-            <div class="page-content">
-                {{ content }}
-            </div>
-        </article>
-    </div>
+<div class="container">
+    {{ content }}
+    {% include footer.html section="Footer" %}
 </div>
 
