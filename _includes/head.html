@@ -5,8 +5,8 @@
   <!-- while under development -->
   <meta name =”robots” content=”noindex,nofollow”>
 
-  <title>{% if page.title %}{{ page.title }}{% endif %} | {{ site.title }}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% seo %}
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <script src="https://use.typekit.net/lkd6vsz.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>

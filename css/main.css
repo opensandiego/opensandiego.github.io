@@ -6942,3 +6942,10 @@ html {
 
 .card-deck .card {
   min-width: 220px; }
+
+a.logo {
+  font-size: 25px;
+  font-weight: bold; }
+
+.logo:hover {
+  text-decoration: none; }

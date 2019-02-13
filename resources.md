@@ -22,6 +22,7 @@ If you think we missed one, please [Let Us know!]({% link contact.md %})
 ### Civic Engagement
 
 * [Open San Diego](https://opensandiego.org) - That's us!
+* [Every Public meeting](https://www.everypublicmeeting.com/)
 
 ### Technology
 

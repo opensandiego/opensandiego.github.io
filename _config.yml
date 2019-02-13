@@ -20,4 +20,7 @@ collections:
         output: true
         permalink: /projects/:path/
 
+plugins:
+    - jekyll-sitemap
+    - jekyll-seo-tag
 
