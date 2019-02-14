@@ -6,7 +6,7 @@ layout: page
 
 San Diego is a vibrant city with a great civic, cultural, educational, and tech scene. Here are some resources to help you find the information, communities and advocacy groups that promote civic engagement, technology, openness and cooperation.
 
-If you think we missed one, please [Let Us know!]({% link contact.md %})
+If you think we missed one, please [Let Us know!]({% link contact.html %})
 
 ### Local Government
 
