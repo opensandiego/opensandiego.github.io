@@ -1,3 +1,4 @@
+/* https://getbootstrap.com/docs/4.3/getting-started/theming/ */
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6942,10 +6943,3 @@ html {
 
 .card-deck .card {
   min-width: 220px; }
-
-a.logo {
-  font-size: 25px;
-  font-weight: bold; }
-
-.logo:hover {
-  text-decoration: none; }
