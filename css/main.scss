@@ -1,6 +1,8 @@
 /* https://getbootstrap.com/docs/4.3/getting-started/theming/ */
-$body-bg: #fff;
-
+$theme-colors: (
+  "primary": #429abb,
+);
+$card-border-radius:                0px;
 
 @import "bootstrap/scss/bootstrap";
 
@@ -9,10 +11,15 @@ html {
 }
 
 .home-jumbotron {
-    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url('/media/images/sd.jpg');
+    background: url('/media/images/osd-header.jpg');
     background-size: cover;
     color: white;
     text-shadow: 1px 1px 1px #333;
+
+    @media (min-width: 768px) {
+        padding-top: 150px;
+        min-height: 200px; 
+    }
 }
 
 @media (min-width: 768px) {
@@ -31,6 +38,16 @@ html {
 
 .card-deck .card {
   min-width: 220px;
+}
+
+.logo {
+    @media (max-width: 768px) {
+        padding-left: 30px;
+    }
+}
+
+.alert-top {
+    background-color: #2C4D69;
 }
 
 

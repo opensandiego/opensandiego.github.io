@@ -5,14 +5,17 @@ layout: base
 <section class="jumbotron text-center home-jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="jumbotron-heading">we are OPEN SAN DIEGO</h1>
-      <p class="lead">We are San Diegans who believe a healthier interface between government and technology leads to a healthier democracy and more vibrant civic life. We care about our communities, our fellow citizens, and our civic institutions, and work together to support and bolster our Public. We are a chapter of the national, non-partisan Code for America, leveraging their resources, but focused on our own local issues. We welcome our fellow San Diegans of every skill level and background to be a part of this movement!</p>
-      <h3>Meet with us in-person, or jump in online!</h3>
-      <p>
-        <a target="_blank" class="btn btn-primary my-3" href="https://www.meetup.com/Open-San-Diego/" alt="Clicking this button will take you to our Meetup.com page where we post our events.">
-            <i class="fa fa-meetup"></i> RSVP to our next event
+      <p class="mt-2">
+        <a target="_blank" class="btn btn-primary" href="https://www.meetup.com/Open-San-Diego/" alt="Clicking this button will take you to our Meetup.com page where we post our events.">
+            <i class="fa fa-meetup"></i> RSVP on Meetup 
         </a>
-        <a target="_blank" class="btn btn-secondary my-3" href="https://osd-slack-auto-invite.herokuapp.com/" alt="Clicking this button will auto-invite you to join our Slack group where we organize ourselves.">
-            <i class="fa fa-slack"></i> Chat with our members
+        <a target="_blank" class="btn btn-primary" href="https://osd-slack-auto-invite.herokuapp.com/" alt="Clicking this button will auto-invite you to join our Slack group where we organize ourselves.">
+            <i class="fa fa-slack"></i> Chat with us on Slack 
+        </a>
+      <p>
+      <p>
+        <a target="_blank" class="btn btn-primary" href="https://opensandiego.us3.list-manage.com/subscribe?u=d8f7c3e34f652446cb42a7feb&id=bedd4695f0" alt="Clicking this button will take you to a form to subscribe to our newsletter.">
+            <i class="fa fa-envelope"></i> Subscribe to Email Updates 
         </a>
       </p>
     </div>
@@ -20,20 +23,26 @@ layout: base
 
 <div class="container">
 
-    <div class="container py-5">
+    <div class="container py-2">
+        <h2 class="display-4">Who we are.</h2>
+      <p class="lead">We are San Diegans who believe a healthier interface between government and technology leads to a healthier democracy and more vibrant civic life. We care about our communities, our fellow citizens, and our civic institutions, and work together to support and bolster our Public. We are a chapter of the national, non-partisan Code for America, leveraging their resources, but focused on our own local issues. We welcome our fellow San Diegans of every skill level and background to be a part of this movement!</p>
+    </div>
+
+    <div class="container py-3">
         <h2 class="display-4">The things we care about.</h2>
         <p>Mission: We strengthen San Diego citizens’ experience as among the best in the nation, by assisting San Diegans who want to collaborate and create a more engaged, efficient, and effective democracy and civic life.</p>
         <p>Vision: A thriving regional San Diego ecosystem, whose people, environment, and economy are supported by data, information, and insights. 
-        <p>Values:</p>
+        <h3 class="display-5">Our Values:</h3>
         <ul>
             <li>We are human-centered, focusing on ultimately improving our shared public’s lives for all (learn more about <a href="https://www.codeforamerica.org/values">Code for America's Values</a>)</li>
             <li>We are data-informed, focusing on opening up and utilizig public data to help make better informed decisions (learn more about <a href="https://data.sandiego.gov/get-started/">San Diego Gov Open Data</a>)</li> 
             <li>We are non-partisan, focusing on being accepting and respectful of all people (learn more in our <a href="code_of_conduct.html">Code of Conduct</a>)</li>
         </ul>
     </div>
-    <div class="card-deck mb-3 text-center">
 
-        <div class="card mb-4 shadow-sm">
+    <div class="card-deck mb-3">
+
+        <div class="card mb-4">
           <div class="card-body">
             <h2 class="card-title">Share your talents and ideas</h2>
             <p>We are a <a href="https://brigade.codeforamerica.org/">Code for America Brigade</a>, which means we’re of, by, and for our community - if you are in San Diego County, you belong! We’re civic-minded volunteers with a variety of backgrounds and experiences in community development, urban planning, non-profits, government, business, software developers, designers, data science and more! Whether your talents or ideas, you have something to contribute towards improving the way our local governments and community organizations work.
@@ -41,8 +50,9 @@ layout: base
             <a href="{% link get_involved.html %}" class="btn btn-lg btn-block btn-outline-primary">Get Involved</a>
           </div>
         </div>
-
-        <div class="card mb-4 shadow-sm">
+    </div>
+    <div class="card-deck mb-3">
+        <div class="card mb-4">
           <div class="card-body">
             <h2 class="card-title">Meet up in-person</h2>
             <p>View our <a href="https://www.meetup.com/Open-San-Diego/">Meetup</a> page for our next meeting & RSVP. We meet at least once a month, and usually always have an educational and meet’n’greet component so we can learn and converse with each other. We partner with other organizations, government offices, and Meetups to help promote each other’s events and get plugged in to the larger regional ecosystem. If you have an idea for an event with our community, we’re happy to work with you to how you can best make it happen. If you have any interest in civic engagement, we hope you’ll join us.
@@ -50,8 +60,7 @@ layout: base
             <a href="https://www.meetup.com/Open-San-Diego/" class="btn btn-lg btn-block btn-outline-primary">Meet Up</a>
           </div>
         </div>
-
-        <div class="card mb-4 shadow-sm">
+        <div class="card mb-4">
           <div class="card-body">
               <h2 class="card-title">Tweet at us</h2>
               <a class="twitter-timeline" data-height="350" href="https://twitter.com/OpenSanDiego?ref_src=twsrc%5Etfw">Tweets by OpenSanDiego</a>
@@ -65,7 +74,7 @@ layout: base
     <h2>Projects</h2>
     <div class="card-deck mb-3">
         {% for project in site.projects %}
-        <div class="card mb-4 shadow-sm">
+        <div class="card mb-4">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">{{ project.title }}</h4>
           </div>
@@ -77,6 +86,21 @@ layout: base
           </div>
         </div>
         {% endfor %}
+    </div>
+
+    <h2>Code for America</h2>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-sm">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pTKJwFOgVuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm">
+                <img height="50px" src="/media/images/cfa_brigade_logo.png" alt="Code For America" />
+                <p>We are a <a href="https://brigade.codeforamerica.org/" target="_blank">Code for America Brigade</a>, which means we’re civic-minded volunteers of techies, creatives, business people and other civic-stakeholders that contribute our talents toward improving the way our local governments and community organizations work.</p>
+    
+                <p><a href="http://brigade.codeforamerica.org/about/" target="_blank">See what kind of things brigades do</a>, and watch the <a href="https://www.ted.com/talks/jennifer_pahlka_coding_a_better_government" target="_blank"> TED talk given by Jennifer Pahlka, Founder of Code for America.</a></p>
+            </div>
+        </div>
     </div>
       
     {% include footer.html section="Footer" %}
