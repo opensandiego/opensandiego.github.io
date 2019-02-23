@@ -74,6 +74,7 @@ layout: base
     <h2>Projects</h2>
     <div class="card-deck mb-3">
         {% for project in site.projects %}
+        {% if project.featured %}
         <div class="card mb-4">
           <div class="card-header">
             <h4 class="my-0 font-weight-normal">{{ project.title }}</h4>
@@ -85,6 +86,7 @@ layout: base
             <p><a href="{{ project.url }}">Learn More</a></p>
           </div>
         </div>
+        {% endif %}
         {% endfor %}
     </div>
 

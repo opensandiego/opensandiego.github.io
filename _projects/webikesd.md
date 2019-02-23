@@ -2,6 +2,7 @@
 layout: page
 title: WeBikeSD.org
 path: webikesd
+featured: yes
 description: Bicycle Tracking website based on CyclePhilly
 ---
 
