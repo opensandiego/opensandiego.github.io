@@ -54,10 +54,7 @@ layout: base
     <div class="card-deck mb-3">
         <div class="card mb-4">
           <div class="card-body">
-            <h2 class="card-title">Meet up in-person</h2>
-            <p>View our <a href="https://www.meetup.com/Open-San-Diego/">Meetup</a> page for our next meeting & RSVP. We meet at least once a month, and usually always have an educational and meet’n’greet component so we can learn and converse with each other. We partner with other organizations, government offices, and Meetups to help promote each other’s events and get plugged in to the larger regional ecosystem. If you have an idea for an event with our community, we’re happy to work with you to how you can best make it happen. If you have any interest in civic engagement, we hope you’ll join us.
-            </p>
-            <a href="https://www.meetup.com/Open-San-Diego/" class="btn btn-lg btn-block btn-outline-primary">Meet Up</a>
+            {% include meetup_widget.html%}
           </div>
         </div>
         <div class="card mb-4">
@@ -107,5 +104,3 @@ layout: base
       
     {% include footer.html section="Footer" %}
 </div>
-
-
