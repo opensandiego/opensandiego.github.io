@@ -52,21 +52,4 @@ html {
     border-radius: 0px;
 }
 
-.youtube-iframe{
-    @media (max-width: 600px) {
-      width: 283px;
-      height: 159px;
-    } 
-    @media (min-width: 600px) {
-      width: 316px;
-      height: 177px;
-    } 
-    @media (min-width: 768px) {
-      width: 411px;
-      height: 228px;
-    } 
-    @media (min-width: 992px) {
-      width: 492px;
-      height: 275px;  
-  } 
-}
+
