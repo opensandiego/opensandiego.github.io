@@ -22,7 +22,8 @@ If you think we missed one, please [Let Us know!]({% link contact.html %})
 ### Civic Engagement
 
 * [Open San Diego](https://opensandiego.org) - That's us!
-* [Every Public meeting](https://www.everypublicmeeting.com/)
+* [Every Public meeting](https://www.everypublicmeeting.com/) - A tool for tracking and posting public meeting minutes
+* [Civic Tech Guide] (https://civictech.guide/) - A repository of various CivicTech products, tools, and services
 
 ### Technology
 
