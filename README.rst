@@ -1,29 +1,36 @@
 Open San Diego Website
 ======================
 
-Built from Bootstrap 4.2.1:
-https://getbootstrap.com/docs/4.2/getting-started/introduction/
+**Built with:**
 
+* `Jekyll <https://jekyllrb.com/>`_
+* `Bootstrap 4.2.1 <https://getbootstrap.com/docs/4.2/getting-started/introduction/>`_
 
 Setting Up a Local Dev Environment
 ----------------------------------
 
-* Install node and ruby
-* npm install .
-* gem install jekyll bundler
+* install `node <https://nodejs.org/en/download/>`_
+* install `ruby <https://www.ruby-lang.org/en/downloads/>`_
+* run the following commands in your terminal:
 
-Building and Running Locally
+   ``gem install jekyll bundler``
+
+   ``bundle install``
+
+   ``npm install``
+
+Running Locally and Building CSS
 ----------------------------
 
-To build the Jekyll Site, run
+To run the website on your local machine:
 
-   $> bundle exec jekyll serve
+* run this command in your terminal: ``bundle exec jekyll serve``
+* open a browser and navigate to ``http://127.0.0.1:4000/``
 
+   **Note:**
+   the CSS needs to be built and committed at this point, until we figure out a way automatically include the bootstrap dependency
 
-To build the SCSS, run
+   If you need to make styling changes, you should edit the ``css/main.scss`` file and then build the css with the following command:
 
-   $> npm run build
-
-*Note* the CSS needs to be built and commmitted at this point, until a way to get it auto-built with
-the dependency from @codeforamerica/style is pulled into the github-pages workflow.
+   ``npm run build``
 
