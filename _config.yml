@@ -18,10 +18,10 @@ sass:
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: /:path
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:path
 
 plugins:
   - jekyll-sitemap
