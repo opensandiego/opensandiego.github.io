@@ -24,7 +24,7 @@ Running Locally and Building CSS
 
 To run the website on your local machine:
 
-* run this command in your terminal: ``bundle exec jekyll serve``
+* run this command in your terminal: ``npm start``
 * open a browser and navigate to ``http://127.0.0.1:4000/``
 
    **Note:**
