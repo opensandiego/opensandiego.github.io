@@ -11,6 +11,14 @@ html {
   font-size: 14px;
 }
 
+nav {
+  text-align: center;
+}
+
+nav a {
+  white-space: nowrap;
+}
+
 .home-jumbotron {
   background: url("/media/images/osd-header.jpg");
   background-size: cover;
