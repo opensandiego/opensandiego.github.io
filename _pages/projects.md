@@ -19,4 +19,3 @@ layout: page
 </div>
 {% endfor %}
 </div>
-
