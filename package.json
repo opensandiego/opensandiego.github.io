@@ -2,11 +2,21 @@
   "name": "opensandiego_style",
   "version": "4.0.9",
   "description": "",
+  "url": "https://opensandiego.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensandiego/opensandiego.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/opensandiego/opensandiego.github.io/issues"
+  },
   "scripts": {
-    "build": "npx node-sass css/main.scss css/main.css --include-path node_modules/"
+    "build": "npx node-sass css/main.scss css/main.css --include-path node_modules/",
+    "start": "bundle exec jekyll serve"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
     "node-sass": "^4.11.0"
-  }
+  },
+  "license": "MIT"
 }

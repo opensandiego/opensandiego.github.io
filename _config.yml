@@ -16,11 +16,13 @@ sass:
     - node_modules/
 
 collections:
-    projects:
-        output: true
-        permalink: /projects/:path/
+  pages:
+    output: true
+    permalink: /:path
+  projects:
+    output: true
+    permalink: /projects/:path
 
 plugins:
-    - jekyll-sitemap
-    - jekyll-seo-tag
-
+  - jekyll-sitemap
+  - jekyll-seo-tag
