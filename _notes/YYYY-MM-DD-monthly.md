@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Month Day, YYYY  Monthly Meetin 
-date: YYYY-MM-DD
+date: 2019-01-01
 ---
 
