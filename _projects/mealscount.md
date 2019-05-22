@@ -3,8 +3,8 @@ layout: page
 title: Meals Count
 path: mealscount
 featured: yes
-partners: [California Food Policy Advocates](https://cfpa.net/), [San Diego Hunger Coalition](https://www.sandiegohungercoalition.org/)
-project leaders: [Nikolaj Baer](https://github.com/nikolajbaer/)
+partners: "[California Food Policy Advocates](https://cfpa.net/), [San Diego Hunger Coalition](https://www.sandiegohungercoalition.org/)"
+projectleaders: "[Nikolaj Baer](https://github.com/nikolajbaer/)"
 description: A web-based tool California school districts can use to optimize free meal program participation and federal reimbursement
 ---
 
