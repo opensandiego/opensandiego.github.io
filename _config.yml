@@ -23,7 +23,7 @@ collections:
     output: true
     permalink: /projects/:path
   notes:
-    output: false
+    output: true
 
 plugins:
   - jekyll-sitemap
