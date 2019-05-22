@@ -4,7 +4,7 @@ title: Peer to Peer Lending
 path: p2p-lending
 featured: yes
 partners: "[Linda Vista Library](https://www.sandiego.gov/public-library/locations/linda-vista-library)"
-projectleaders: "[Nikolaj Baer](https://github.com/nikolajbaer/), [Nick Engmann](https://github.com/NickEngmann/)"
+project leaders: "[Nikolaj Baer](https://github.com/nikolajbaer/), [Nick Engmann](https://github.com/NickEngmann/)"
 description: A web application to help the Linda Vista Library branch facilitate community peer-to-peer lending.
 ---
 
