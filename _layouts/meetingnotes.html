@@ -1,0 +1,14 @@
+---
+layout: base
+---
+
+<div class="container py-3">
+    <h1>{{ title }}</h1>
+    {% if date %}
+    <h4>{{ date | date_to_string</h4>
+    {% endif %}
+    {{ content | markdownify }}
+    {% include footer.html section="Footer" %}
+</div>
+
+

@@ -4,17 +4,12 @@ layout: page
 
 <h1 class="my-4">Meeting Notes / Recaps</h1>
 
-<div class="card-deck mb-3">
+<div class="container mb-3">
 {% for note in site.notes %}
-<div class="card mb-4 shadow-sm">
-  <div class="card-header">
-    <h4 class="my-0 font-weight-normal">{{ note.date }}</h4>
-  </div>
-  <div class="card-body">
-    <p>
-    {{ note }}
+{% if note.published %}
+    <div class="row">
+        <a href="{{ note.url }}">{{ note.date | date_to_string }}: {{ note.title }}</a>
     </p>
-  </div>
-</div>
+{% endif %}
 {% endfor %}
 </div>

@@ -2,7 +2,8 @@
 layout: page
 title: WeBikeSD.org
 path: webikesd
-featured: yes
+featured: no 
+status: on hold
 description: Bicycle Tracking website based on CyclePhilly
 ---
 
