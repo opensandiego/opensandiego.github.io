@@ -4,7 +4,7 @@ title: Peer-to-Peer Library Lending
 path: p2plendingm
 featured: yes
 partners: Linda Vista Library
-status: prototype
+status: development
 description: A web application to facilitate a peer-to-peer lending project by the Linda Vista Library
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Meals Count
 path: mealscount
 featured: yes
-status: development / beta
+status: development
 partners: California Food Policy Advocates, San Diego Hunger Coalition
 description: A web-based tool California school districts can use to optimize free meal program participation and federal reimbursement
 ---

@@ -8,7 +8,12 @@ layout: page
 {% for project in site.projects %}
 <div class="card mb-4 shadow-sm">
   <div class="card-header">
-    <h4 class="my-0 font-weight-normal">{{ project.title }}</h4>
+    <h4 class="my-0 font-weight-normal">
+        {{ project.title }}
+    </h4>
+    {% if project.status %}
+    <span class="badge badge-secondary">{{ project.status }}</span>
+    {% endif %}
   </div>
   <div class="card-body">
     <p>
