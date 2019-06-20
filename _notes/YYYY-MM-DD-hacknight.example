@@ -1,0 +1,30 @@
+---
+layout: page
+title: Month Day, YYYY  Monthly Meeting
+# Set this to true when ready
+published: false 
+# Date Format: YYYY-MM-DD (read more here) https://jekyllrb.com/docs/collections/#documents
+---
+
+# Enter your meeting notes content here in Markdown format, e.g.
+
+** Agenda **
+
+#### 7:00pm 
+    Intro / Networking 
+
+#### 7:10pm  - Announcements
+    * Announcement 1
+    * Announcement 2    
+
+#### 7:15pm  - Talks
+
+** Speaker or Talk 1 **
+    * Note 1
+    * Note 2 [Link 1](https://example.com/)
+
+** Speaker or Talk 2 **
+    * Note 1
+    * Note 2 [Link 1](https://example.com/)
+
+
