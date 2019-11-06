@@ -7,11 +7,11 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 RUN gem install -n /usr/local/bin jekyll \ 
     bundler
-RUN bundle install && bundle update github-pages
+
 
 
 USER gitpod 
 # Apply user-specific settings
-
+RUN bundle install && bundle update github-pages
 # Give back control
 USER root
