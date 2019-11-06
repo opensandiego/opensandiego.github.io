@@ -12,6 +12,6 @@ RUN gem install -n /usr/local/bin jekyll \
 
 USER gitpod 
 # Apply user-specific settings
-RUN bundle install && bundle update github-pages
+
 # Give back control
 USER root
