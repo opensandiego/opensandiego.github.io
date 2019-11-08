@@ -15,9 +15,6 @@ RUN gem install -n /usr/local/bin jekyll \
 
 USER gitpod
 # Apply user-specific settings
-RUN  echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-RUN echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-RUN  echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-RUN source ~/.bashrc
+
 # Give back control
 USER root
