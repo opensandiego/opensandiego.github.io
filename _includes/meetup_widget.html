@@ -1,28 +1,83 @@
-<div style="width: 225px; margin: auto;" id="meetup_events"></div>
+<div style="width: 95%; margin: auto;" id="meetup_events"></div>
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"
 <script>jQuery.noConflict();</script>
 <script type="template/html" id="meetup_event_template">
-  <!--
+  
   <% data.forEach( function(event){ %>
-    <div>
-      <img src="<%= event.featured_photo.thumb_link %>" alt="<%= event.name %>" />
-      <h5><%= event.name %></h5> - <%= event.local_date %>
+    <div style="overflow: hidden">
+      <img src="<%= event.featured_photo.photo_link %>" alt="<%= event.name %>" height=300 width=400/>
+      <br><br>
+      <h5><%= event.name %></h5>
+      <h6><i class="fa fa-map-marker"></i> <%= event.venue.name%> - <%= event.venue.address_1%>, <%= event.venue.city %></h6>
+      <h6><i class="fa fa-clock-o"></i> <%= event.local_date%> at <%= event.local_time%></h6>   
+      <a
+        target="_blank"
+        class="btn btn-primary meetup-btn"
+        href="<%= event.link %>"
+        alt="Clicking this button will take you to our Meetup.com page with our next scheduled event."
+      >
+        <i class="fa fa-meetup"></i> RSVP on Meetup
+      </a>
     </div>
-  <% });  %>
-  -->
+  <!-- <% });  %>   -->
+ 
 </script>
 <script>
   // First we need a handler function
   function handleEventFeed(events){ 
      console.log(events); /* todo template events */ 
      var tpl = _.template($("#meetup_event_template").text());
-     $("#meetup_events").html( tpl( events ) );
+     let date = dateFormater(events.data[0])
+     events.data[0].local_date = date;  
+     let time = timeFormater(events.data[0])
+     events.data[0].local_time = time;
+     $("#meetup_events").html( tpl(events ) );
+  }
+
+  //formats date from Meetup JSON data
+  function dateFormater(event){
+    let date = event.local_date
+    const months = {
+      '01' : 'January',
+      '02' : 'February',
+      '03' : 'March',
+      '04' : 'April',
+      '05' : 'May',
+      '06' : 'June',
+      '07' : 'July',
+      '08' : 'August',
+      '09' : 'Sepetember',
+      '10' : 'October',
+      '11' : 'November',
+      '12' : 'December'
+    }
+    let month = months[date.slice(5,7)]
+    return `${month} ${date.slice(8,10)}, ${date.slice(0,4)}`
+  }
+  
+  function timeFormater(event){
+    let time = event.local_time; // your input
+    time = time.split(':'); // convert to array
+    let hours = Number(time[0]);
+    let minutes = Number(time[1]);
+    let timeValue;
+    if (hours > 0 && hours <= 12) {
+      timeValue= "" + hours;
+    } else if (hours > 12) {
+      timeValue= "" + (hours - 12);
+    } else if (hours == 0) {
+      timeValue= "12";
+    }
+    timeValue += (minutes < 10) ? ":0" + minutes : ":" + minutes;  // get minutes
+    timeValue += (hours >= 12) ? " P.M." : " A.M.";  // get AM/PM
+    return timeValue
   }
 
   // Then trigger a JSONP request:
   jQuery.ajax({
-      url:'https://api.meetup.com/Open-San-Diego/events?&sign=true&photo-host=public&page=2&fields=featured_photo&callback=handleEventFeed',
+      url:'https://api.meetup.com/Open-San-Diego/events?&sign=true&photo-host=public&page=1&fields=featured_photo&callback=handleEventFeed',
       dataType:"jsonp"
   });
 </script>
