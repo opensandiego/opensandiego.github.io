@@ -27,7 +27,6 @@
 <script>
   // First we need a handler function
   function handleEventFeed(events){ 
-     console.log(events); /* todo template events */ 
      var tpl = _.template($("#meetup_event_template").text());
      let date = dateFormater(events.data[0])
      events.data[0].local_date = date;  
@@ -57,6 +56,7 @@
     return `${month} ${date.slice(8,10)}, ${date.slice(0,4)}`
   }
   
+  //formats time from Meetup JSON data
   function timeFormater(event){
     let time = event.local_time; // your input
     time = time.split(':'); // convert to array
