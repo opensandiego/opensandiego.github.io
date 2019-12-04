@@ -1,13 +1,10 @@
 ---
 layout: page
-<<<<<<< HEAD
-title: May 7th, 2019 Hacknight
-date: 2019-5-07
-=======
+
 title: May 7th, 2019Hacknight
 date: 2019-5-07
 published: true
->>>>>>> upstream/master
+
 ---
 
 #### 7:00pm
