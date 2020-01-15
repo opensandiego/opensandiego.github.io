@@ -23,15 +23,36 @@
   <% });  %>  
  
 </script>
+<!-- Placeholder widget if no meetup is planned -->
+<div id="meetup_placeholder" style="overflow: hidden; display:none">
+  <img src="https://images.unsplash.com/photo-1459745930869-b3d0d72c3cbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80" alt="man surfing through a wave" height=250 width=400/>
+  <h5>Looks like we have gone surfing, connect with us below if you are interested in getting involved!</h5>
+  <a
+    target="_blank" class="btn btn-primary meetup-btn" href="https://www.meetup.com/Open-San-Diego/" alt="Clicking this button will take you to our Meetup.com page.">
+    <i class="fa fa-meetup"></i> Join our Meetup group
+  </a>
+  <a target="_blank" class="btn btn-primary meetup-btn" href="https://osd-slack-auto-invite.herokuapp.com/" alt="Clicking this button will auto-invite you to join our Slack group where we organize ourselves.">
+    <i class="fa fa-slack"></i> Chat with us on Slack
+  </a>
+  <br>
+  <a target="_blank" class="btn btn-primary meetup-btn" href="https://opensandiego.us3.list-manage.com/subscribe?u=d8f7c3e34f652446cb42a7feb&amp;id=bedd4695f0" alt="Clicking this button will take you to a form to subscribe to our newsletter.">
+    <i class="fa fa-envelope"></i> Subscribe to Email Updates
+  </a>
+</div>
 <script>
   // First we need a handler function
-  function handleEventFeed(events){ 
-     var tpl = _.template($("#meetup_event_template").text());
-     let date = dateFormater(events.data[0])
-     events.data[0].local_date = date;  
-     let time = timeFormater(events.data[0])
-     events.data[0].local_time = time;
-     $("#meetup_events").html( tpl(events ) );
+  function handleEventFeed(events){
+    if(events.data.length){
+      var tpl = _.template($("#meetup_event_template").text());
+      console.log("events:", events)
+      let date = dateFormater(events.data[0])
+      events.data[0].local_date = date;  
+      let time = timeFormater(events.data[0])
+      events.data[0].local_time = time;
+      $("#meetup_events").html( tpl(events ) );
+    } else{
+      $('#meetup_placeholder').css("display", "block")
+    } 
   }
 
   //formats date from Meetup JSON data
