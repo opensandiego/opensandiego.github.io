@@ -44,7 +44,6 @@
   function handleEventFeed(events){
     if(events.data.length){
       var tpl = _.template($("#meetup_event_template").text());
-      console.log("events:", events)
       let date = dateFormater(events.data[0])
       events.data[0].local_date = date;  
       let time = timeFormater(events.data[0])
