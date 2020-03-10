@@ -6,6 +6,8 @@
 - [Bootstrap 4.2.1](https://getbootstrap.com/docs/4.2/getting-started/introduction)
 
 ## Setting Up a Local Dev Environment
+[![Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect.herokuapp.com)
+
 
 - install [node](https://nodejs.org/en/download)
 - install [ruby](https://www.ruby-lang.org/en/downloads)
@@ -23,6 +25,7 @@ To run the website on your local machine:
 
 - run this command in your terminal: `npm start`
 - open a browser and navigate to `http://127.0.0.1:4000/`
+- on gitpod say yes to expose the ports when prompted
 
 > **Note:** the CSS needs to be built and committed at this point, until we figure out a way automatically include the bootstrap dependency
 >

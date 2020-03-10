@@ -2,7 +2,7 @@
 layout: page
 title: Peer-to-Peer Library Lending 
 path: p2plendingm
-featured: yes
+featured: no
 partners: Linda Vista Library
 status: development
 description: A web application to facilitate a peer-to-peer lending project by the Linda Vista Library
