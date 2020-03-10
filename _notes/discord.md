@@ -1,9 +1,8 @@
 ---
 layout: page
-title: June 18th, 2019  Monthly Meeting
+title: Virtual meeting instructions
 # Set this to true when ready
 published: true
-# Date Format: YYYY-MM-DD (read more here) https://jekyllrb.com/docs/collections/#documents
 ---
 
 ### How to join Open San Diego Discord Channel
