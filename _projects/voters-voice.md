@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Voter's Voice Dashboard
+title: San Diego Voter's Voice
 path: voters-voice
-featured: yes 
+featured: yes
 status: active development
 description: Campaign Finance information website for San Diego local offices
 ---
@@ -13,7 +13,4 @@ Campaign finance information for candidates running for local offices is not rea
 
 ### Links
 
-* [Github Project](https://github.com/opensandiego/odca-jekyll)
-
-
-
+* [Github Project](https://github.com/opensandiego/sdvv-frontend/blob/master/README.md)
