@@ -7,7 +7,7 @@ published: true
 
 ### How to join Open San Diego Discord Channel
 
-1. Click on the link [https://discord.gg/hfrmXJ](https://discord.gg/hfrmXJ)
+1. Click on the link [https://discord.gg/EPv4FWz](https://discord.gg/EPv4FWz)
 2. Create a user name (you can either create a temp user name or an account by providing your email address)
 3. Select the voice channel that you want to join
 
