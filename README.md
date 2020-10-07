@@ -32,3 +32,10 @@ To run the website on your local machine:
 > If you need to make styling changes, you should edit the `css/main.scss` file and then build the css with the following command:
 >
 > `npm run build`
+
+To run with a Docker container you can use a prefabricated one for github pages like:
+
+E.g. from https://github.com/Starefossen/docker-github-pages
+
+> docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages 
+

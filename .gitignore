@@ -12,3 +12,4 @@ Thumbs.db
 # code for america base style guide
 style-guide
 node_modules/
+.vscode/

@@ -22,8 +22,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path
-  notes:
-    output: true
 
 plugins:
   - jekyll-sitemap
