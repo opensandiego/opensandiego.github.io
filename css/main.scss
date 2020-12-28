@@ -2,7 +2,9 @@
 $theme-colors: (
   "primary": #0071BC,
   "secondary": #E5F7F5,
-  "primary-aqua": #00A99D
+  "info": #E6F1F8,
+  "info-text": #3D3D3D,
+  "primary-aqua": #00A99D,
 );
 $card-border-radius: 0px;
 $headings-font-family: "Open Sans", sans-serif;
@@ -15,9 +17,13 @@ $btn-padding-y: 15px;
 $btn-font-size: 20px;
 $btn-active-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
 
-
-
 @import "bootstrap/scss/bootstrap";
+
+.alert-info {
+  /* not sure what the variable for this is .. */
+  color: theme-colors("info-text");
+}
+
 
 html {
   font-size: 14px;
@@ -92,4 +98,8 @@ nav a {
 
 a.btn-primary:active {
   background-color: theme-color("primary-aqua");
+}
+
+.btn {
+  text-transform: uppercase; 
 }

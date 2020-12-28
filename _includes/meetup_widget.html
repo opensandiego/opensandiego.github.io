@@ -3,8 +3,17 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"
 <script>jQuery.noConflict();</script>
 <script type="template/html" id="meetup_event_template">
-  
-  <% data.forEach( function(event){ %>
+ 
+  <% if(data.length == 0){ %>
+    <div>
+      <div class="alert alert-info m-4 text-center">No Upcoming Events</div>
+      <p>
+        We almost always meet up on Tuesdays at 7pm on our <a target="_blank" href="{% link _notes/discord.md %}">discord server</a>, 
+        but hop by <a target="_blank" href="https://osd-slack-auto-invite.herokuapp.com/">slack</a> to check!
+      </p>
+    </div>
+  <% }else{
+    data.forEach( function(event){ %>
     <div style="overflow: hidden">
       <img src="<%= event.featured_photo.photo_link %>" alt="<%= event.name %>" height=300 width=400/>
       <br><br>
@@ -20,18 +29,22 @@
         <i class="fa fa-meetup"></i> RSVP on Meetup
       </a>
     </div>
-  <% });  %>  
+  <% });  
+    }
+  %>  
  
 </script>
 <script>
   // First we need a handler function
   function handleEventFeed(events){ 
      var tpl = _.template($("#meetup_event_template").text());
-     let date = dateFormater(events.data[0])
-     events.data[0].local_date = date;  
-     let time = timeFormater(events.data[0])
-     events.data[0].local_time = time;
-     $("#meetup_events").html( tpl(events ) );
+     if(events.length > 0){
+      let date = dateFormater(events.data[0])
+      events.data[0].local_date = date;  
+      let time = timeFormater(events.data[0])
+      events.data[0].local_time = time;
+     }
+     $("#meetup_events").html( tpl(events) );
   }
 
   //formats date from Meetup JSON data

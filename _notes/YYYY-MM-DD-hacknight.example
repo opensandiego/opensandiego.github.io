@@ -3,6 +3,7 @@ layout: page
 title: Month Day, YYYY  Monthly Meeting
 # Set this to true when ready
 published: false 
+pinned: false
 # Date Format: YYYY-MM-DD (read more here) https://jekyllrb.com/docs/collections/#documents
 ---
 
