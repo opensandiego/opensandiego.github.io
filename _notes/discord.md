@@ -3,6 +3,7 @@ layout: page
 title: Virtual meeting instructions
 # Set this to true when ready
 published: true
+pinned: true
 ---
 
 ### How to join Open San Diego Discord Channel
