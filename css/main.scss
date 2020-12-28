@@ -1,9 +1,21 @@
 /* https://getbootstrap.com/docs/4.3/getting-started/theming/ */
 $theme-colors: (
-  "primary": #429abb
+  "primary": #0071BC,
+  "secondary": #E5F7F5,
+  "primary-aqua": #00A99D
 );
 $card-border-radius: 0px;
-$headings-font-family: "Roboto Slab", serif;
+$headings-font-family: "Open Sans", sans-serif;
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+
+$btn-border-radius: 5px;
+$btn-padding-x: 30px;
+$btn-padding-y: 15px;
+$btn-font-size: 20px;
+$btn-active-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+
+
 
 @import "bootstrap/scss/bootstrap";
 
@@ -53,7 +65,7 @@ nav a {
 }
 
 .meetup-btn {
-  margin: 1rem 0;
+  margin: 1rem 2rem;
 }
 
 .card-deck .card {
@@ -72,4 +84,12 @@ nav a {
 .alert-top {
   background-color: #2c4d69;
   border-radius: 0px;
+}
+
+.btn-primary:hover {
+  background-color: theme-color("primary");
+}
+
+a.btn-primary:active {
+  background-color: theme-color("primary-aqua");
 }
