@@ -12,11 +12,12 @@
   },
   "scripts": {
     "build": "npx node-sass css/main.scss css/main.css --include-path node_modules/",
+    "watch": "npx node-sass css/main.scss css/main.css --include-path node_modules/ -w",
     "start": "bundle exec jekyll serve"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "node-sass": "^4.13.1",
     "tar": ">=4.4.2"
   },
