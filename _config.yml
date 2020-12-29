@@ -2,7 +2,7 @@
 title: Open San Diego Website
 email: info@opensandiego.org
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.opensandiego.org" # the base hostname & protocol for your site
+url: "https://opensandiego.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
