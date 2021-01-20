@@ -6,6 +6,7 @@ layout: page
 
 <div class="card-deck mb-3">
 {% for project in site.projects %}
+{% if project.status != 'archived' %}
 <div class="card mb-4 shadow-sm">
   <div class="card-header">
     <h4 class="my-0 font-weight-normal">
@@ -22,5 +23,20 @@ layout: page
     <p><a href="{{ project.url }}">Learn More</a></p>
   </div>
 </div>
+{% endif %}
 {% endfor %}
 </div>
+
+<h4>Archived Projects</h4>
+
+<ul>
+{% for project in site.projects %}
+{% if project.status == 'archived' %}
+  <li>
+    <a href="{{ project.url }}">{{ project.title }}</a>
+    {{ project.description}}
+  </li>
+{% endif %}
+{% endfor %}
+</ul>
+

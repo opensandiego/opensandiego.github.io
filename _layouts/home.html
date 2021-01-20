@@ -39,82 +39,47 @@ layout: base
 </section>
 
 <div class="container">
-  <div class="row py-2">
-    <div class="col-sm">
-      <h2>Who we are.</h2>
-      <p>
-        We are volunteers from all backgrounds on a mission to positively impact our local San Diego community by applying the principles and practices of the digital age.
-      </p>
-    </div>
-  </div>
-
   <div class="row py-3">
-    <div class="col-sm">
-      <h2>The things we care about.</h2>
-      <p>
-        <b>Mission:</b> We strengthen San Diego citizens’ experience as among
-        the best in the nation, by collaborating to create a more engaged,
-        efficient, and effective democracy and civic life.
-      </p>
-      <p>
-        <b>Vision:</b> A thriving regional San Diego ecosystem, whose people,
-        environment, and economy are supported by seamlessly implemented data
-        and technology.
-      </p>
-      <h3>Our Values:</h3>
-      <ul>
-        <li>
-          We are human-centered, focused on being accepting and respectful of
-          all people (learn more in our
-          <a href="code_of_conduct.html">Code of Conduct</a>)
-        </li>
-        <li>
-          We are data-informed, focused on opening up and utilizing public data
-          to make better decisions (learn more about
-          <a href="https://data.sandiego.gov/get-started/">
-            San Diego Gov Open Data </a
-          >)
-        </li>
-        <li>
-          We are non-partisan, focused on improving our shared public life
-          (learn more about
-          <a href="https://www.codeforamerica.org/values">
-            Code for America's Values </a
-          >)
-        </li>
-      </ul>
-    </div>
+      {% include homepage_threepack.html %}
   </div>
 
+  <h2 class="text-center">What We're Working On</h2>
   <div class="card-deck mb-3">
+    {% for project in site.projects %} {% if project.featured %}
     <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">{{ project.title }}</h4>
+      </div>
       <div class="card-body">
-        <h2 class="card-title">Share your talents and ideas</h2>
         <p>
-          We are a
-          <a href="https://brigade.codeforamerica.org/"
-            >Code for America Brigade</a
-          >
-          , which means we’re of, by, and for our community -
-          <b><i>if you are in San Diego County, you belong!</i></b> We’re
-          civic-minded volunteers with a variety of skills and experiences in
-          community development, urban planning, non-profits, government,
-          business, software development, design, data science and more! Whether
-          your talents or ideas, you have something to contribute towards
-          improving the way our local governments and community organizations
-          work.
+          {{ project.description }}
         </p>
-        <div class="text-center">
-          <a
-            href="{% link _pages/get-involved.html %}"
-            class="btn btn-lg btn-primary center"
-          >
-            Get Involved
-          </a>
-        </div>
-     </div>
+        <p><a href="{{ project.url }}">Learn More</a></p>
+      </div>
     </div>
+    {% endif %} {% endfor %}
   </div>
+
+  <h2>Get @ Us</h2>
+  <div class="row py-3">
+      <div>
+        <i class="fa fa-twitter"></i>
+        Twitter 
+      </div>
+      <div>
+        <i class="fa fa-meetup"></i>
+        Meetup
+      </div> 
+      <div>
+        <i class="fa fa-instagram"></i>
+        Instagram
+      </div> 
+      <div>
+        <i class="fa fa-linkedin"></i>
+        LinkedIn
+      </div> 
+  </div>
+
   <div class="card-deck mb-3">
     <div class="card mb-4">
       <div class="card-body">
@@ -141,23 +106,6 @@ layout: base
     </div>
   </div>
   <!-- card-deck -->
-
-  <h2>Featured Projects</h2>
-  <div class="card-deck mb-3">
-    {% for project in site.projects %} {% if project.featured %}
-    <div class="card mb-4">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">{{ project.title }}</h4>
-      </div>
-      <div class="card-body">
-        <p>
-          {{ project.description }}
-        </p>
-        <p><a href="{{ project.url }}">Learn More</a></p>
-      </div>
-    </div>
-    {% endif %} {% endfor %}
-  </div>
 
   <h2>Code for America</h2>
   <div class="row">
