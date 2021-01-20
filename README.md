@@ -33,9 +33,10 @@ To run the website on your local machine:
 >
 > `npm run build`
 
-To run with a Docker container you can use a prefabricated one for github pages like:
+You can run from docker using 
 
-E.g. from https://github.com/Starefossen/docker-github-pages
+> docker-compose up
 
-> docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages 
+To rebuild the SCSS, you need to do in a different terminal:
 
+> docker-compose exec jekyll npm run build

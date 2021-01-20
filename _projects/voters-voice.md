@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: San Diego Voter's Voice
 path: voters-voice
 featured: yes
@@ -13,4 +13,5 @@ Campaign finance information for candidates running for local offices is not rea
 
 ### Links
 
+* [Website](https://san-diego-voters-voice.web.app/splash)
 * [Github Project](https://github.com/opensandiego/sdvv-frontend/blob/master/README.md)
