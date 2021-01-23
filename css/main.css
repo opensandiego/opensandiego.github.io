@@ -7330,3 +7330,7 @@ small, .text_small {
   display: flex;
   flex-direction: column;
   text-align: center; }
+
+.icons-row i.fa {
+  display: block;
+  font-size: 64px; }

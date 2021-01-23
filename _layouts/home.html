@@ -43,7 +43,7 @@ layout: base
       {% include homepage_threepack.html %}
   </div>
 
-  <h2 class="text-center">What We're Working On</h2>
+  <h2 class="mb-5 text-center">What We're Working On</h2>
   <div class="card-deck mb-3">
     {% for project in site.projects %} {% if project.featured %}
     <div class="card mb-4">
@@ -60,67 +60,41 @@ layout: base
     {% endif %} {% endfor %}
   </div>
 
-  <h2>Get @ Us</h2>
-  <div class="row py-3">
-      <div>
-        <i class="fa fa-twitter"></i>
-        Twitter 
-      </div>
-      <div>
-        <i class="fa fa-meetup"></i>
-        Meetup
-      </div> 
-      <div>
-        <i class="fa fa-instagram"></i>
-        Instagram
-      </div> 
-      <div>
-        <i class="fa fa-linkedin"></i>
-        LinkedIn
-      </div> 
+  <h2 class="text-center">Get @ Us</h2>
+  <div>
+    <ul class="icons-row wrapper">
+      <li class="icons-row-item">
+        <a href="">
+          <i class="fa fa-twitter"></i>
+          <span>Twitter</span>
+        </a>
+      </li>
+      <li class="icons-row-item">
+        <a href="">
+          <i class="fa fa-meetup"></i>
+          <span>Meetup</span>
+        </a>
+      </li>
+      <li class="icons-row-item">
+        <a href="">
+          <i class="fa fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+      <li class="icons-row-item">
+        <a href="">
+          <i class="fa fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul> 
   </div>
 
-  <div class="card-deck mb-3">
-    <div class="card mb-4">
-      <div class="card-body">
-        <h2 class="card-title">Join our next Meetup</h2>
-        {% include meetup_widget.html%}
-      </div>
-    </div>
-    <div class="card mb-4">
-      <div class="card-body">
-        <h2 class="card-title">Tweet at us</h2>
-        <a
-          class="twitter-timeline"
-          data-height="350"
-          href="https://twitter.com/OpenSanDiego?ref_src=twsrc%5Etfw"
-        >
-          Tweets by OpenSanDiego
-        </a>
-        <script
-          async
-          src="https://platform.twitter.com/widgets.js"
-          charset="utf-8"
-        ></script>
-      </div>
-    </div>
-  </div>
   <!-- card-deck -->
 
-  <h2>Code for America</h2>
+  <h2 class="text-center">Code for America</h2>
   <div class="row">
-    <div class="col-sm-7">
-      <div class="embed-responsive embed-responsive-16by9 mb-3">
-        <iframe
-          class="youtube-iframe"
-          src="https://www.youtube.com/embed/pTKJwFOgVuM"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-    <div class="col-sm-5">
+    <div class="col-sm-6">
       <img
         height="50px"
         src="/media/images/cfa_brigade_logo.png"
@@ -147,6 +121,17 @@ layout: base
           TED talk given by Jennifer Pahlka, Founder of Code for America.
         </a>
       </p>
+    </div>
+    <div class="col-sm-6">
+      <div class="embed-responsive embed-responsive-16by9 mb-3">
+        <iframe
+          class="youtube-iframe"
+          src="https://www.youtube.com/embed/pTKJwFOgVuM"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </div>
 
