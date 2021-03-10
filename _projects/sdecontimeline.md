@@ -5,7 +5,7 @@ path: sdecontimeline
 featured: yes 
 partners: SANDAG
 status: active development
-description: 
+description:  An interactive web timeline on San Diego's Economic History, built in partnership with SANDAG
 ---
 
 ## Overview
