@@ -3,7 +3,7 @@ layout: project
 title: Meals Count
 path: mealscount
 featured: yes
-status: development
+status: production
 partners: Nourish CA, San Diego Hunger Coalition
 description: A web-based tool school districts across the country can use to optimize federal reimbursement from the USDA
 ---
@@ -14,7 +14,8 @@ description: A web-based tool school districts across the country can use to opt
 
 ## Overview
 
-MealsCountWe’re building a web-based tool school districts can use to optimize free meal program participation and federal reimbursement, in partnership with [Nourish California](https://nourishca.org/), [San Diego Hunger Coalition](https://www.sandiegohungercoalition.org/), and [No Kid Hungry](https://www.nokidhungry.org/).
+MealsCount is a web-based tool school districts can use to optimize free meal program participation and federal reimbursement, in partnership with [Nourish California](https://nourishca.org/), [San Diego Hunger Coalition](https://www.sandiegohungercoalition.org/), and [No Kid Hungry](https://www.nokidhungry.org/).
+
 
 ### Links
 

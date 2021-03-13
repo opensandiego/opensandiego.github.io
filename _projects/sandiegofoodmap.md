@@ -20,6 +20,9 @@ The San Diego Food Asset Map is a tool in development to create a user friendly 
 
 ### Links
 
-- [Github Project](https://github.com/opensandiego)
+- [Github Project](https://github.com/opensandiego/sandiego-food-map)
 
+### Project Leads
+
+- Bolun Thompson (@Bolun Thompson on slack)
 
