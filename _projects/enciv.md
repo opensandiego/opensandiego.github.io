@@ -8,7 +8,7 @@ description: productive democracy online- tasks include undebates, unpoll, civil
 ---
 
 <div class="text-center">
-    <a href="https://www.youtube.com/watch?v=Tb2u0h_IUGc" target="_blank"><img src="https://img.youtube.com/vi/Tb2u0h_IUGc/0.jpg" width="350px" /></a>
+    <a href="https://www.youtube.com/watch?v=Tb2u0h_IUGc" target="_blank"><img src="/media/images/enciv.png" width="350px" /></a>
 </div>
 
 ## Overview
