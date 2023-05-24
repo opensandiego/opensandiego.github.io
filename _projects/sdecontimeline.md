@@ -20,6 +20,7 @@ The timeline is an interactive data visualization tool that reflects San Diego r
 
 ### Links
 
+- [Live App](https://economicstimeline.sandag.org/)
 - [Github Project](https://github.com/opensandiego/sd_economy_timeline)
 
 ### Project Leads
