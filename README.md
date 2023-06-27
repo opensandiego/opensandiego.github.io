@@ -30,7 +30,9 @@ To run the website on your local machine:
 >
 > `npm run build`
 
-You can run from docker using 
+## You can run from docker using 
+
+**Note** there are errors trying to get this latest version working with docker - hacking welcome
 
 > docker-compose up
 
