@@ -33,9 +33,18 @@ layout: base
   <div class="row py-3">
       {% include homepage_threepack.html %}
   </div>
-
+  <style>
+    iframe {
+      width: 1px;
+      min-width: 100%;
+    }
+  </style>
+  <script src="https://democracy-lab-dev.herokuapp.com/static/iframeResizer.min.js"></script>
   <h2 class="mb-5 text-center">What We're Working On</h2>
-  <div class="card-deck mb-3">
+  <iframe id="democracylab-groups" style='box-sizing: content-box; padding:1rem;'
+      src="https://democracy-lab-dev.herokuapp.com/igs/1"
+  ></iframe>
+  <div style="display: none" id='static-project-list' class="card-deck mb-3">
     {% for project in site.projects %} {% if project.featured %}
     <div class="card mb-4">
       <div class="card-header">
@@ -50,6 +59,17 @@ layout: base
     </div>
     {% endif %} {% endfor %}
   </div>
+  <script>
+    try {
+      iFrameResize({ log: false }, '#democracylab-groups')
+    }
+    catch(err){
+      const frame=document.getElementById('democracylab-groups')
+      frame.style.display='none'
+      const staticList=document.getElementById('static-project-list')
+      staticList.style.display='block'
+    }
+  </script>
 
   <h2 class="text-center">Get @ Us</h2>
   <div>
