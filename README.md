@@ -7,7 +7,7 @@
 
 ## Setting Up a Local Dev Environment
 
-- install [node](https://nodejs.org/en/download) see .nvmrc for the version used or install [Node Version Switcher](https://github.com/jasongin/nvs) and then run `nvs use` 
+- install [node](https://nodejs.org/en/download) see .nvmrc for the version used or install [Node Version Switcher](https://github.com/jasongin/nvs) and then run `nvs auto` 
 - install [ruby](https://www.ruby-lang.org/en/downloads) see .ruby-version for the version used
 - run the following commands in your terminal:
 
